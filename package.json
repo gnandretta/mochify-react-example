@@ -1,0 +1,23 @@
+{
+  "name": "hello-react",
+  "description": "React and Mochify example",
+  "version": "1.0.0",
+  "main": "./lib/hello-react",
+  "browserify": {
+    "transform": [
+      "babelify"
+    ]
+  },
+  "scripts": {
+    "test": "mochify --wd"
+  },
+  "devDependencies": {
+    "babelify": "^6.1.3",
+    "browserify": "^11.0.1",
+    "mocha": "^2.2.5",
+    "mochify": "^2.12.0"
+  },
+  "dependencies": {
+    "react": "^0.13.3"
+  }
+}

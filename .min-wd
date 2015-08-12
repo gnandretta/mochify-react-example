@@ -1,0 +1,7 @@
+{
+  "browsers": [{
+    "name": "firefox"
+  }, {
+    "name": "chrome"
+  }]
+}
